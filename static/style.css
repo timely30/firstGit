@@ -1,0 +1,106 @@
+* {
+    margin: 10;
+    padding: 5;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html,
+body {
+    height: 50%;
+    background-color: white;
+}
+
+.h1{
+    background-color:white;
+}
+
+.Hero div {
+    background-image: url(./image/forest.png);
+    width: auto;
+    height: 150px;
+    background-position: center;
+    color: aliceblue;
+    padding: 1%;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px rgb(17, 17, 19);
+    font-size: 20px;
+}
+.TopMat{
+    background-color: beige;
+    padding: 5px;
+}
+.TopMat li{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 2rem;
+    font-style: italic ;
+    font-weight: 200px;
+    color: darkgreen;
+}
+.TopMat p {
+    padding: 0%;
+    margin: 0%;
+    color: dimgray;
+}
+
+.ikeaGroup {
+    padding-top: 10px;
+    border-bottom: 2px;
+    border-top: 2px;
+    border-color: rgba(26, 26, 26, 0.533);
+    font-size: medium;
+    
+}
+    
+.ikeaGroup div{
+    flex-wrap: wrap;
+    display: flex;
+   
+}
+
+.ikeaGroup h2{
+   margin-left: 0px;
+   color: brown;
+   text-shadow:2px 5px 5px rgb(43, 17, 15);
+   
+}
+.ikeaGroup h1{
+    margin-right: 10px;
+   }
+.ikea-section img {
+    width: 300px;
+    height: 300px;
+    border-image-width: 2%;
+    border-radius: 5%;
+    image-rendering: crisp-edges;
+}
+.ikea-section :nth-child(3) {
+    width: 380px;
+    height: 380px; 
+    border-top-right-radius: 5px;   
+    border-image: round;
+}
+
+
+.ikea-text-section div button {
+    
+    width: 70px;
+    height: 30px;
+    color: rgb(2, 114, 12);
+    padding-bottom: 0px;
+    cursor: pointer;
+    border: solid 2px;
+    border-radius: 10%;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    box-shadow: 20px;
+}
+.imgSize{
+    margin-left: 5px;
+}
+
+

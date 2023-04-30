@@ -1,0 +1,35 @@
+# version: '3.9'
+
+# services:
+#   httpd:
+#     container_name: httpd
+#     image: httpd:latest
+#     volumes:
+#       - /static.html:/var/www
+#     ports:
+#       - "81:80"
+#     networks:
+#       - web_network
+
+# networks:
+#   web_network:
+#     name: httpd
+#     driver: bridge
+
+version: '3.9'
+
+services:
+  httpd:
+    container_name: httpd
+    image: httpd:2.4.41-alpine
+    volumes:
+      - ./static:/usr/local/apache2/htdocs
+    ports:
+      - "81:80"
+    networks:
+      - web_network
+
+networks:
+  web_network:
+    name: httpd
+    driver: bridge
